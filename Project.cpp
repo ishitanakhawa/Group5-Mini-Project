@@ -1,3 +1,4 @@
+//Module 1
 #include <iostream>
 #include <fstream>
 #include <vector>
@@ -54,7 +55,7 @@ public:
 };
 
 
-
+//Module 2 
 void loadProducts(vector<Product> &products) {
     ifstream file("inventory.txt");
     Product p;
@@ -77,7 +78,7 @@ void saveProducts(const vector<Product> &products) {
     file.close();
 }
 
-
+//Module 3 
 int main() {
     vector<Product> products;
     int choice;
